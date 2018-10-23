@@ -22,7 +22,7 @@ LC_COLLATE=C
 LC_NUMERIC=C
 export LC_COLLATE LC_NUMERIC
 
-# We are using a recursive build, so we need to do a little thinking
+# We are using a Myonol build, so we need to do a little thinking
 # to get the ordering right.
 #
 # Most importantly: sub-Makefiles should only ever modify files in
@@ -34,7 +34,7 @@ export LC_COLLATE LC_NUMERIC
 # is now up to date.
 #
 # The only cases where we need to modify files which have global
-# effects are thus separated out and done before the recursive
+# effects are thus separated out and done before the myonol
 # descending is started. They are now explicitly listed as the
 # prepare rule.
 
