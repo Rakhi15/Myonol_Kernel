@@ -1,5 +1,5 @@
 #!/bin/bash
-export KBUILD_BUILD_USER="neuralos"
+export KBUILD_BUILD_USER="root"
 export KBUILD_BUILD_HOST="Rakesh"
 export CROSS_COMPILE=/home/neuralos/rakhi/ndk/bin/aarch64-linux-gnu-
 export ARCH=arm64
